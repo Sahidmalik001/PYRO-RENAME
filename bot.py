@@ -1,3 +1,5 @@
+import os 
+
 from os import getenv, environ
 
 from pyrogram import Client 
