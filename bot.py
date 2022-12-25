@@ -1,6 +1,8 @@
 import os 
 
 from os import environ
+from aiohttp import web
+from plugins import web_server
 
 from pyrogram import Client 
 from config import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB
@@ -33,9 +35,12 @@ class Bot(Client):
             print("Make Sure Bot admin in force sub channel")             
             self.force_channel = None
        print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
-    PORT = int(environ('PORT', 8080))
-    BIND_ADRESS = str(environ('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
-       
+       app = web.AppRunner(await web_server())
+       await app.setup()
+       bind_address = "0.0.0.0"
+       await web.TCPSite(app, bind_address, 8080).start()
+
+
     async def stop(self, *args):
       await super().stop()      
       print("Bot Stopped")
