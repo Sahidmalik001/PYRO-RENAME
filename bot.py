@@ -2,7 +2,7 @@ import os
 
 from os import environ
 from aiohttp import web
-from plugins import web_server
+from plugins.koyeb import web_server
 
 from pyrogram import Client 
 from config import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB
