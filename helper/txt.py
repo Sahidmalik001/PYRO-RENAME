@@ -36,7 +36,7 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 𝙼𝚈 𝙽𝙰𝙼𝙴 : {}
-├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/PYRO_BOTZ/53>𝗧𝗘𝗔𝗠 𝗣𝗬𝗥𝗢 𝗕𝗢𝗧𝗭</a> 
+├👑 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁𝚂 : <a href=https://t.me/sahid_malik>Sahid malik</a> 
 ├👨‍💻 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙴𝚁 : <a href=https://github.com/lntechnical2>𝙻𝙽 𝚃𝙴𝙲𝙷.𝚐𝚒𝚝</a>
 ├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼</a>
 ├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>𝙿𝚈𝚃𝙷𝙾𝙽 3</a>
@@ -63,7 +63,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
-ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/PYRO_BOTZ_CHAT>𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑮𝑹𝑶𝑼𝑷</a>
+ℹ️ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/m_admins>Movies house team</a>
 """
 
 #⚠️ don't remove our credits 🙏😢😢
