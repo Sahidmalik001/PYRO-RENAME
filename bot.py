@@ -31,6 +31,8 @@ class Bot(Client):
             print("Make Sure Bot admin in force sub channel")             
             self.force_channel = None
        print(f"{me.first_name} 𝚂𝚃𝙰𝚁𝚃𝙴𝙳 ⚡️⚡️⚡️")
+    PORT = int(getenv('PORT', 8080))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
        
     async def stop(self, *args):
       await super().stop()      
